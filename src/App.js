@@ -6,6 +6,7 @@ import Home from './pages/home';
 import Listing from './pages/Listing';
 import Applayout from './layout/applayout';
 import Login from "./pages/Login"
+import Signup from "./pages/Signup"
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/listing' element={<Listing />} />
         <Route path='/Login' element={<Login />} />
+        <Route path='/Signup' element={<Signup />} />
       </Routes>
       </Applayout>
     </BrowserRouter>
